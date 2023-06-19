@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LABRADTAREA.Views.Ejercicio_1_1">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            
+            <Label Text="Numero 1" />
+            <Entry x:Name="Numero1" Placeholder="Ingrese el número 1" Keyboard="Numeric" />
+            <Label Text="Numero 2" />
+            <Entry x:Name="Numero2" Placeholder="Ingrese el número 2" Keyboard="Numeric" />
+
+            <Button x:Name="btnSuma" Text="Suma" Clicked="btnSuma_Clicked" />
+            <Button x:Name="btnResta" Text="Resta" Clicked="btnResta_Clicked" />
+            <Button x:Name="btnDivision" Text="División" Clicked="btnDivision_Clicked" />
+            <Button x:Name="btnMultiplicacion" Text="Multiplicación" Clicked="btnMultiplicacion_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

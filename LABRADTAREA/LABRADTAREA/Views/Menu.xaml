@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LABRADTAREA.Views.Menu">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Button x:Name="BTNEjercicio_1_1" Text="Ejercicio_1_1" Clicked="BTNEjercicio_1_1_Clicked" />
+            <Button x:Name="BTNEjercicio_1_2" Text="Ejercicio_1_2" Clicked="BTNEjercicio_1_2_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

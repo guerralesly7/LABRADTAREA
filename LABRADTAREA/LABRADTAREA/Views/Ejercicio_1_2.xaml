@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LABRADTAREA.Views.Ejercicio_1_2">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Label Text="Nombre" />
+            <Entry x:Name="txt_Nombre" />
+
+            <Label Text="Apellido" />
+            <Entry x:Name="txt_Apellido" />
+
+            <Label Text="Edad" />
+            <Entry x:Name="txt_Edad" Keyboard="Numeric" />
+
+            <Label Text="Correo electronico" />
+            <Entry x:Name="txt_Correo" />
+
+            <Button x:Name="btnEnviar" Text="Enviar información" Clicked="btnEnviar_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
